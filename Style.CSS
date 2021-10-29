@@ -1,0 +1,59 @@
+body {
+    font-family: Arial;
+    background-image: url(https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color:lightgreen; /*sempre colocar plano de fundo*/
+    height: 100vh; /*proporção da tela para imagem não voar*/
+}
+
+h1{ /*caixa de texxto*/
+    text-align: center;
+    color: green; 
+
+}
+
+p {
+    line-height: 30px; 
+}
+
+.conteudo {  /*selector*/
+    margin: auto; 
+    margin-top:200px;
+    padding:40px;
+    background-color: white;
+    width: 300px;
+    border-radius:30px; /*borda arredondada*/
+    box-shadow: 5px 5px 20px black;
+
+}
+
+.enfase { /*selector*/
+text-align: right;
+color:green;
+font-size:25px;
+
+}
+
+.botao { /*selector botão entrar*/
+    display: grid;
+    place-content: center;
+    background-color: darkgreen;
+    color: white;
+    padding:10px;
+    margin-left:40px;
+    margin-right: 40px;
+    text-decoration: none; /*editar botão link sem_*/
+    border-radius: 10px;
+    text-transform: uppercase; 
+
+
+}
+
+.botao:hover { /*ação sobre o botão*/
+    background-color: lightgreen;
+    cursor:crosshair; /*ação que estiliza o cursor*/
+
+
+}
